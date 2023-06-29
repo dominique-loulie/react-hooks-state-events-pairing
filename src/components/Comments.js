@@ -1,10 +1,7 @@
-function Comment({ user, comment }){
-  return (
-      <comment>
-          <strong>{user}</strong>
-          <p>{comment}</p>
-      </comment>
-  )
+export default function Comments() {
+    return (
+        <div>
+            
+        </div>
+    )
 }
-
-export default Comment
