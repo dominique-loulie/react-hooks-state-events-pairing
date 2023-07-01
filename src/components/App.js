@@ -10,8 +10,7 @@ function App() {
     <div className="App">
       <Video embedUrl={video.embedUrl} />
       <VideoDetails video={video} />
-      <Comments />
-      
+      <Comments comments={video.comments} />
     </div>
   );
 }
